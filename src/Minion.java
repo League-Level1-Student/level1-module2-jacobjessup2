@@ -1,36 +1,38 @@
 
 public class Minion {
-String name = ""; 
-int eyes = 0; 
-String color = ""; 
-String master = "";
+private String name = ""; 
+private int eyes = 0; 
+private String color = ""; 
+private String master = "";
 	
 	
 	
-	public void getName() {
+	public String getName() {
 		System.out.println(name);
-		
+		return this.name;
 	}
 	
-	public void getEyes() {
-		System.out.println(eyes);
+	public int getEyes() {
+		System.out.println("I have " + eyes + " eyes");
+		return this.eyes;
 	}
 	
-	public void getColor() {
-		System.out.println(color);
+	public String getColor() {
+		System.out.println("I'm " + color);
+		return this.color;
 	}
 	
-	public void getMaster() {
-		System.out.println(master);
+	public String getMaster() {
+		System.out.println(master + " is my master");
+		return this.master;
 	}
 	
 	public void setMaster(String master) {
-		
+		 this.master = master;
+		System.out.println(name + "'s new master is " + master);
 	}
 	
-	public void assertEquals() {
-		
-	}
+	
 	
 	
 	
