@@ -5,9 +5,10 @@
 /Kettle.class
 /Microwave.class
 /Minion.class
+/MinionRunner.class
 /MinionTest.class
 /Popcorn.class
+/PopcornMaker.class
 /TeaBag.class
 /TeaMaker.class
-/MinionRunner.class
-/PopcornMaker.class
+/TeaMakerCreater.class
