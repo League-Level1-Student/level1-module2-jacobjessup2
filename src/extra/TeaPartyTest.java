@@ -1,11 +1,16 @@
 package extra;
 
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
 public class TeaPartyTest {
-	 /**
-     * Jane Austen is a woman, so say “Hello Ms. Austen”.
-     * George Orwell is a man, so say “Hello Mr. Orwell”.
-     * Isaac Newton was knighted, so say "Hello Sir Isaac Newton".
-     **/
+
+//	/**
+//     * Jane Austen is a woman, so say “Hello Ms. Austen”.
+//     * George Orwell is a man, so say “Hello Mr. Orwell”.
+//     * Isaac Newton was knighted, so say "Hello Sir Isaac Newton".
+//     **/
 
     @Test
     public void test() {
@@ -16,4 +21,4 @@ public class TeaPartyTest {
             assertEquals("Hello Sir Isaac Newton", teaParty.welcome("Isaac Newton", false, true));
     }
 }
-}
+
